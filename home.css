@@ -31,7 +31,8 @@ body{
     bottom: 50vh;
     position: relative;
     top: 26vh;
-    z-index: 10;
+    z-index: 0;
+    line-height: 0%;
 }
 .secondArea{
     max-height: 10%;
@@ -39,7 +40,8 @@ body{
     position: relative;
     bottom: 19.8vh;
     left: 29%;
-    z-index: 10; 
+    z-index: 0;
+    line-height: 0%;
 }
 .thirdArea{
     max-height: 10%;
@@ -48,7 +50,8 @@ body{
     bottom: 5vh;
     right: 6vh;
     float: right;
-    z-index: 10;
+    z-index: 0;
+    line-height: 0%;
 }
 
 /*Tamanho de cada estrutura*/

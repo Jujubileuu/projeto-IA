@@ -93,6 +93,56 @@ body{
     display: none;
 }
 
+/*Seu Receio*/
+.openForm{
+    background-color: aqua;
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    bottom: 0vh;
+}
+.popUp{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    max-width: 80%;
+    padding: 3vh;
+}
+.popUpText, .popUpTitle, .popUpClose{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.popUpImg{
+    float: right;
+    width: 40%;
+    border-radius: 2vh;
+}
+.popUpText{
+    float: left;
+    width: 50%;
+    align-self: center;
+    margin-right: 9vh;
+    text-align: justify;
+}
+.popUpTitle{
+    text-decoration: underline;
+}
+.popUpHeader{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.popUpMain{
+    display: flex;
+    flex-direction:row;
+}
+
 /*Overlay*/
 #overlay{
     position: fixed;

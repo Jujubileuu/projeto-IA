@@ -1,0 +1,129 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(/img/war.jpg);
+    background-size: 100% 100vh;
+}
+
+.headerSpace{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 2vh;
+}
+.headerIcon{
+    width: 10vh;
+    height: 10vh;
+}
+
+.card{
+    height: 15vh;
+    width: 15vh;
+    position: relative;
+    cursor: pointer;
+}
+.cardBody{
+    background-color: rgba(111, 111, 111, 0.5);
+    height: 12vh;
+    width: 15vh;
+    border-radius: 3vh;
+    box-shadow: 0px 0px 10px black;
+}
+.cardCircle{
+    background-color: rgba(111, 111, 111, 0.5);
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50vh;
+    margin: 0.5vh auto 0 auto;
+    box-shadow: 0px 0px 10px black;
+}
+.clickIcon{
+    width: 50%;
+    height: 60%;
+    margin: 25% 25% 25% 40%;
+    transform: rotate(-45deg);
+}
+
+.firstCard{
+    left: 90vh;
+    top: 55vh;
+}
+.secondCard{
+    left: 25vh;
+    top: 45vh;
+}
+.thirdCard{
+    left: 190vh;
+    top: 6vh;
+}
+.fourthCard{
+    left: 75vh;
+    bottom: 20vh;
+}
+.fifthCard{
+    left: 160vh;
+    top: 15vh;
+}
+
+.popUp{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    max-width: 80%;
+    padding: 3vh;
+    display: none;
+}
+.popUpText, .popUpTitle, .popUpClose{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.popUpImg{
+    float: right;
+    width: 40%;
+    border-radius: 2vh;
+}
+.popUpText{
+    float: left;
+    width: 50%;
+    align-self: center;
+    margin-right: 9vh;
+    text-align: justify;
+}
+.popUpTitle{
+    text-decoration: underline;
+}
+.popUpHeader{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.popUpMain{
+    display: flex;
+    flex-direction:row;
+}
+
+.popUpClose:hover {
+    cursor: pointer;
+    color: rgba(82, 82, 82, 0.8);
+    font-size: 150%;
+}
+
+#overlay{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .6);
+    pointer-events: none;
+}

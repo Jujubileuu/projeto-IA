@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guerra.css">
+    <script src="guerra.js"></script>
+    <title>Etica</title>
+</head>
+<body>
+    <header>
+        <div class="headerSpace">
+            <a href="/home.html">
+                <img src="/img/homeIcon.png" alt="" class="headerIcon">
+            </a>
+            <img src="/img/audioIcon.png" alt="" class="headerIcon">
+        </div>
+    </header>
+    <main style="margin-top: -15vh;">
+        <div class="card firstCard" id="1" onclick="openCard(this.id)">
+            <div class="cardBody">
+                <img src="/img/clickIcon.gif" alt="" class="clickIcon">
+            </div>
+            <div class="cardCircle"></div>
+        </div>
+        <div class="card secondCard" id="2" onclick="openCard(this.id)">
+            <div class="cardBody">
+                <img src="/img/clickIcon.gif" alt="" class="clickIcon">
+            </div>
+            <div class="cardCircle"></div>
+        </div>
+        <div class="card thirdCard" id="3" onclick="openCard(this.id)">
+            <div class="cardBody">
+                <img src="/img/clickIcon.gif" alt="" class="clickIcon">
+            </div>
+            <div class="cardCircle"></div>
+        </div>
+        <div class="card fourthCard" id="4" onclick="openCard(this.id)">
+            <div class="cardBody">
+                <img src="/img/clickIcon.gif" alt="" class="clickIcon">
+            </div>
+            <div class="cardCircle"></div>
+        </div>
+        <div class="card fifthCard" id="5" onclick="openCard(this.id)">
+            <div class="cardBody">
+                <img src="/img/clickIcon.gif" alt="" class="clickIcon">
+            </div>
+            <div class="cardCircle"></div>
+        </div>
+        <div class="popUp" id="popUp">
+            <div class="popUpHeader">
+                <h1 class="popUpTitle">Lorem Ipsum</h1>
+                <h2 class="popUpClose" onclick="closeCard()">X</h2>
+            </div>
+            <div class="popUpMain">
+                <p class="popUpText" id="popUpText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a, quasi, eveniet numquam qui dolor consequatur adipisci nulla accusamus vitae, nobis itaque corrupti voluptatum cumque. Sed laborum odio facilis suscipit?</p>
+                <img src="https://cdn.hisour.com/cdn-cgi/imagedelivery/PJiouRWxFR9baI5eaOAFCA/www.hisour.com/2017/10/Portrait.jpg/w=640,h=954" alt="" class="popUpImg" id="popUpImg">
+            </div>
+        </div>
+        <div id="overlay"></div>
+    </main>
+    <footer></footer>
+</body>
+</html>

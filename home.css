@@ -101,37 +101,38 @@ body{
     position: fixed;
     bottom: 0vh;
 }
+.popUp hr{
+    background-color: black; 
+    margin: 4vh 0vh 4vh 0vh;
+}
+.textHr{
+    margin: 2vh auto 2vh auto !important; 
+    width: 80%;
+}
 .popUp{
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid black;
+    border: 1px solid ghostwhite;
     border-radius: 10px;
     z-index: 10;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: ghostwhite;
     width: 500px;
     max-width: 80%;
     padding: 3vh;
 }
 .popUpText, .popUpTitle, .popUpClose{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-}
-.popUpImg{
-    float: right;
-    width: 40%;
-    border-radius: 2vh;
+    color: black;
 }
 .popUpText{
-    float: left;
-    width: 50%;
     align-self: center;
-    margin-right: 9vh;
     text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0vh 2vh 0vh 2vh;
 }
-.popUpTitle{
-    text-decoration: underline;
+.popUpTitle, .popUpClose{
+    font-family: eightBit;
 }
 .popUpHeader{
     display: flex;
@@ -141,6 +142,11 @@ body{
 .popUpMain{
     display: flex;
     flex-direction:row;
+}
+.popUpFooter input{
+    width: 100%;
+    height: 5vh;
+    font-size: large;
 }
 
 /*Overlay*/

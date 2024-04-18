@@ -33,3 +33,21 @@ function openForm(){
 function closeForm(){
     document.getElementById("popUp").style.display = "none";
 }
+
+window.onload = function() {
+    document.getElementById("audioTag").play();
+}
+
+function audioOnOff() {
+    if (document.getElementById("audioTag").classList.contains("enabled")) {
+        document.getElementById("audioTag").pause();
+        document.getElementById("audioTag").classList.remove("enabled");
+        document.getElementById("audioTag").classList.add("disabled");
+        document.getElementById("audioButton").src = "/img/audioDisabledIcon.png";
+    } else {
+        document.getElementById("audioTag").play();
+        document.getElementById("audioTag").classList.remove("disabled");
+        document.getElementById("audioTag").classList.add("enabled");
+        document.getElementById("audioButton").src = "/img/audioEnabledIcon.png";
+    }
+}

@@ -12,7 +12,7 @@ function overlayHover(idArea) {
         document.getElementById("guerraTitle").style.display = "flex";
         document.getElementById("guerraTitle").classList.add("animatedFadeIn");
     }
-    document.getElementById("overlay").style.opacity = 1;
+    document.getElementById("overlay").style.opacity = 0.5;
     document.getElementById("overlay").classList.add("animatedFadeIn");
 }
 

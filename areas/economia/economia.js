@@ -1,6 +1,6 @@
 function openCard(idCard){
     document.getElementById("popUp").style.display = "block";
-    document.getElementById("overlay").style.opacity = 1;
+    document.getElementById("overlay").style.opacity = 0.5;
     document.getElementById("overlay").classList.add("animatedFadeIn");
 
     changeContent(idCard);

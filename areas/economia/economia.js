@@ -1,12 +1,14 @@
 function openCard(idCard){
     document.getElementById("popUp").style.display = "block";
     document.getElementById("overlay").style.opacity = 1;
+    document.getElementById("overlay").classList.add("animatedFadeIn");
 
     changeContent(idCard);
 }
 function closeCard(){
     document.getElementById("popUp").style.display = "none";
     document.getElementById("overlay").style.opacity = 0;
+    document.getElementById("overlay").classList.remove("animatedFadeIn");
 }
 
 function changeContent(idCard){

@@ -17,6 +17,10 @@ body{
 .headerIcon{
     width: 10vh;
     height: 10vh;
+    cursor: pointer;
+}
+.headerIcon:hover{
+    filter: invert(1);
 }
 
 .card{
@@ -126,4 +130,25 @@ body{
     bottom: 0;
     background-color: rgba(0, 0, 0, .6);
     pointer-events: none;
+}
+
+/*animacoes*/
+.animatedGetUp{
+    animation-name: getUp;
+    animation-duration: 0.5s;
+    animation-timing-function:ease-in;
+}
+.animatedFadeIn{
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-timing-function:ease-in;
+}
+
+@keyframes getUp {
+    0% { top: 150vh; }
+    100% { top: 50vh; }
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }

@@ -13,22 +13,25 @@ function closeCard(){
 
 function changeContent(idCard){
     if(idCard == "1") {
-        document.getElementById("popUpText").innerHTML = "teste1";
-        document.getElementById("popUpImg").src = "https://imgv3.fotor.com/images/side/astronaut-in-space-looking-up-at-the-stars-generated-by-Fotor-AI.jpg";
+        document.getElementById("popUpTitle").innerHTML = "Noam Chomsky";
+        document.getElementById("popUpText").innerHTML = "“Este é o ataque mais radical ao pensamento crítico, à inteligência crítica e particularmente à ciência que eu jamais vi”.";
+        document.getElementById("popUpImg").src = "/img/pessoas/NoamChomsky.webp";
     } else if(idCard == "2") {
         document.getElementById("popUpTitle").innerHTML = "Anônimo";
-        document.getElementById("popUpText").innerHTML = "“então, o que impediria os robôs de nos escravizarem ou de dizimarem a nossa espécie?”";
+        document.getElementById("popUpText").innerHTML = "“Então, o que impediria os robôs de nos escravizarem ou de dizimarem a nossa espécie?”";
         document.getElementById("popUpImg").src = "/img/pessoas/Anonimo.jpg";
     } else if(idCard == "3") {
-        document.getElementById("popUpText").innerHTML = "teste3";
-        document.getElementById("popUpImg").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs5yf9d35OUjrxlQIpIhXop9rc9DN749axHenYIPlMk-aAzQrRDy94Ciins7zcfZfhE6o&usqp=CAU";
+        document.getElementById("popUpTitle").innerHTML = "Elon Musk";
+        document.getElementById("popUpText").innerHTML = "“IAs são mais perigosas que, digamos, um design mal-feito de avião ou de carro, no sentido de que tem o potencial — por menor que seja, embora não-trivial — elas tem o potencial de destruir a civilização.”";
+        document.getElementById("popUpImg").src = "/img/pessoas/ElonMusk.jpg";
     } else if(idCard == "4") {
         document.getElementById("popUpTitle").innerHTML = "Mark Bishop";
-        document.getElementById("popUpText").innerHTML = "“em meu papel como especialista em IA no Comitê Internacional para Controle de Armas de Robôs, estou particularmente preocupado com a potencial implantação de sistemas de armas robóticas que pode engajar militarmente sem intervenção humana [...]”";
+        document.getElementById("popUpText").innerHTML = "“Em meu papel como especialista em IA no Comitê Internacional para Controle de Armas de Robôs, estou particularmente preocupado com a potencial implantação de sistemas de armas robóticas que pode engajar militarmente sem intervenção humana [...]”";
         document.getElementById("popUpImg").src = "/img/pessoas/MarkBishop.jpg";
     } else if(idCard == "5") {
-        document.getElementById("popUpText").innerHTML = "teste5";
-        document.getElementById("popUpImg").src = "https://s2-techtudo.glbimg.com/L9wb1xt7tjjL-Ocvos-Ju0tVmfc=/0x0:1200x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/q/l/TIdfl2SA6J16XZAy56Mw/canvaai.png";
+        document.getElementById("popUpTitle").innerHTML = "Sam Altman";
+        document.getElementById("popUpText").innerHTML = "“A inteligência artificial provavelmente irá causar o fim do mundo, mas enquanto isso não acontece, existirão grandes empresas”.";
+        document.getElementById("popUpImg").src = "/img/pessoas/SamAltman.jpg";
     }
 }
 

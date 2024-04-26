@@ -18,19 +18,19 @@ function changeContent(idCard){
         document.getElementById("popUpImg").src = "/img/pessoas/StuartRussell.jpg";
     } else if(idCard == "2") {
         document.getElementById("popUpTitle").innerHTML = "Stephen Hawking";
-        document.getElementById("popUpText").innerHTML = "“uma vez que os humanos desenvolvessem inteligência artificial, ela decolaria por conta própria e redesenhar-se a uma taxa cada vez maior. Os seres humanos, que são limitados por processos biológicos lentos de evolução, não poderiam competir e seriam substituídos”";
+        document.getElementById("popUpText").innerHTML = "“Uma vez que os humanos desenvolvessem inteligência artificial, ela decolaria por conta própria e redesenhar-se a uma taxa cada vez maior. Os seres humanos, que são limitados por processos biológicos lentos de evolução, não poderiam competir e seriam substituídos”.";
         document.getElementById("popUpImg").src = "/img/pessoas/StephenHawking.webp";
     } else if(idCard == "3") {
         document.getElementById("popUpTitle").innerHTML = "Anônimo";
-        document.getElementById("popUpText").innerHTML = "“e sobre altruísmo e ajudar os outros em necessidade, especialmente seu irmão? Uma máquina pode ensinar isso a eles? Eu acho que não [...]”";
+        document.getElementById("popUpText").innerHTML = "“E sobre altruísmo e ajudar os outros em necessidade, especialmente seu irmão? Uma máquina pode ensinar isso a eles? Eu acho que não [...]”";
         document.getElementById("popUpImg").src = "/img/pessoas/Anonimo.jpg";
     } else if(idCard == "4") {
-        document.getElementById("popUpTitle").innerHTML = "AAAAAA";
-        document.getElementById("popUpText").innerHTML = "teste4";
-        document.getElementById("popUpImg").src = "https://thumbs.dreamstime.com/b/imagem-bonita-da-silhueta-da-natureza-65000328.jpg";
+        document.getElementById("popUpTitle").innerHTML = "Gordon Matthew";
+        document.getElementById("popUpText").innerHTML = "“Essa será uma batalha que todos nós teremos que travar nos próximos dois anos: defender nosso capital humano contra a IA”.";
+        document.getElementById("popUpImg").src = "/img/pessoas/Sting.jpg";
     } else if(idCard == "5") {
         document.getElementById("popUpTitle").innerHTML = "Anônimo";
-        document.getElementById("popUpText").innerHTML = "“podemos confiar nela tecnicamente, mas nunca na sua ‘humanidade’”.";
+        document.getElementById("popUpText").innerHTML = "“Podemos confiar nela tecnicamente, mas nunca na sua ‘humanidade’”.";
         document.getElementById("popUpImg").src = "/img/pessoas/Anonimo.jpg";
     }
 }

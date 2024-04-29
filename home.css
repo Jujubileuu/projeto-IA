@@ -181,6 +181,55 @@ body{
     pointer-events: none;
 }
 
+/*Tutorial*/
+.tutorial{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: black;
+    width: 800px;
+    max-width: 80%;
+    padding: 3vh;
+    display: table;
+}
+.verticalCenter{
+    display: table-cell;
+    vertical-align: middle;
+}
+.pass{
+    filter: invert(1);
+    width: 30%;
+}
+.tutorialImg{
+    width: 85%;
+    margin: auto;
+    display: block;
+    border-radius: 4vh;
+}
+.tutorialText{
+    color: white;
+    font: 1em sans-serif;
+    margin: 3vh;
+    text-align: justify;
+}
+.tutorialHeader{
+    margin-bottom: 5vh;
+    padding: 1vh 2vh 0 2vh;
+}
+.tutorialSlide{
+    float: left;
+    color: white;
+    font-family: eightBit;
+}
+.tutorialClose{
+    color: white;
+    float: right;
+}
+
 /*animated*/
 .animatedGetUp{
     animation-name: getUp;

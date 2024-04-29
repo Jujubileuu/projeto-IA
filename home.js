@@ -34,6 +34,40 @@ function closeForm(){
     document.getElementById("popUp").style.display = "none";
 }
 
+function openTutorial(){
+    document.getElementById("tutorial").style.display = "table";
+}
+function closeTutorial(){
+    document.getElementById("tutorial").style.display = "none";
+}
+
+function passSlide(){
+    if (document.getElementById("firstSlide")){
+        document.getElementById("tutorialSlide").innerHTML = "2";
+        document.getElementById("tutorialImg").src = "/img/school.jpg";
+        document.getElementById('firstSlide').id = 'secondSlide';
+        //document.getElementById("tutorialText").innerHTML = "";
+    } else if (document.getElementById("secondSlide")){
+        document.getElementById("tutorialSlide").innerHTML = "3";
+        document.getElementById("tutorialImg").src = "/img/war.jpg";
+        document.getElementById('secondSlide').id = 'thirdSlide';
+        //document.getElementById("tutorialText").innerHTML = "";
+    }
+}
+function recedeSlide(){
+    if (document.getElementById("thirdSlide")){
+        document.getElementById("tutorialSlide").innerHTML = "2";
+        document.getElementById("tutorialImg").src = "/img/school.jpg";
+        document.getElementById('thirdSlide').id = 'secondSlide';
+        //document.getElementById("tutorialText").innerHTML = "";
+    } else if (document.getElementById("secondSlide")){
+        document.getElementById("tutorialSlide").innerHTML = "1";
+        document.getElementById("tutorialImg").src = "/img/bank.jpg";
+        document.getElementById('secondSlide').id = 'firstSlide';
+        //document.getElementById("tutorialText").innerHTML = "";
+    }
+}
+
 window.onload = function() {
     document.getElementById("audioTag").play();
 }

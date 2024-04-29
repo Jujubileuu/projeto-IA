@@ -15,21 +15,26 @@
                 <img src="/img/documentIcon.png" alt="" class="headerIcon">
             </a>
             <img src="/img/audioEnabledIcon.png" alt="" class="headerIcon" id="audioButton" onclick="audioOnOff()">
+            <img src="/img/iIcon.png" alt="" class="headerIcon" onclick="openTutorial()">
         </div>
     </header>
     <main>
-        <div class="tutorial">
+        <div class="tutorial animatedGetUp" id="tutorial">
             <div class="tutorialHeader">
-                <h2 class="tutorialSlide">1</h2>
-                <h2 class="popUpClose tutorialClose" onclick="closeForm()">X</h2>
+                <h2 class="tutorialSlide" id="tutorialSlide">1</h2>
+                <h2 class="popUpClose tutorialClose" onclick="closeTutorial()">X</h2>
             </div>
             <div>
-                <div class="verticalCenter"><img src="/img/setaIcon.png" alt="" class="pass" style="float: left; transform: rotate(180deg);"></div>
                 <div class="verticalCenter">
-                    <img src="/img/bank.jpg" alt="" class="tutorialImg">
-                    <p class="tutorialText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis animi quam. Non nisi iste voluptas dolorem velit cumque, doloremque esse. Ab quasi enim ut tenetur consequatur, obcaecati ipsum provident.</p>
+                    <img src="/img/setaIcon.png" alt="" class="pass" style="float: left; transform: rotate(180deg);" onclick="recedeSlide()">
                 </div>
-                <div class="verticalCenter"><img src="/img/setaIcon.png" alt="" class="pass" style="float: right;"></div>
+                <div class="verticalCenter" id="firstSlide">
+                    <img src="/img/bank.jpg" alt="" class="tutorialImg" id="tutorialImg">
+                    <p class="tutorialText" id="tutorialText" name="firstSlide">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo omnis animi quam. Non nisi iste voluptas dolorem velit cumque, doloremque esse. Ab quasi enim ut tenetur consequatur, obcaecati ipsum provident.</p>
+                </div>
+                <div class="verticalCenter">
+                    <img src="/img/setaIcon.png" alt="" class="pass" style="float: right;" onclick="passSlide()">
+                </div>
             </div>
         </div>
         <div class="firstArea" id="firstArea" onmouseover="overlayHover(this.id)" onmouseleave="overlayHoverOff()">

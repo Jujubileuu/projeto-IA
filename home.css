@@ -189,8 +189,8 @@ body{
     transform: translate(-50%, -50%);
     border: 1px solid black;
     border-radius: 10px;
-    z-index: 10;
-    background-color: black;
+    z-index: 20;
+    background: linear-gradient(153deg, rgba(2,0,36,1) 48%, rgba(163,163,163,1) 100%);
     width: 800px;
     max-width: 80%;
     padding: 3vh;
@@ -204,11 +204,16 @@ body{
     filter: invert(1);
     width: 30%;
 }
+.pass:hover{
+    cursor: pointer;
+    width: 28%;
+}
 .tutorialImg{
     width: 85%;
     margin: auto;
     display: block;
     border-radius: 4vh;
+    border: 3px double white;
 }
 .tutorialText{
     color: white;
@@ -233,7 +238,7 @@ body{
 /*animated*/
 .animatedGetUp{
     animation-name: getUp;
-    animation-duration: 1.5s;
+    animation-duration: 0.8s;
     animation-timing-function:ease-in;
 }
 .animatedFadeIn{

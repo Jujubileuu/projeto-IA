@@ -200,11 +200,18 @@ body{
     display: table-cell;
     vertical-align: middle;
 }
-.pass{
-    filter: invert(1);
+.pass, .recede{
     width: 30%;
+    filter: invert(1);
 }
-.pass:hover{
+.pass{
+    float: right;
+}
+.recede{
+    float: left;
+    transform: rotate(180deg);
+}
+.pass:hover, .recede:hover{
     cursor: pointer;
     width: 28%;
 }
@@ -224,15 +231,13 @@ body{
 .tutorialHeader{
     margin-bottom: 5vh;
     padding: 1vh 2vh 0 2vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
 }
-.tutorialSlide{
-    float: left;
+.tutorialSlide, .tutorialClose, .tutorialTitle{
     color: white;
     font-family: eightBit;
-}
-.tutorialClose{
-    color: white;
-    float: right;
 }
 
 /*animated*/

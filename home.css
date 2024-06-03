@@ -190,7 +190,7 @@ body{
     border: 1px solid black;
     border-radius: 10px;
     z-index: 20;
-    background: linear-gradient(153deg, rgba(2,0,36,1) 48%, rgba(163,163,163,1) 100%);
+    background: linear-gradient(140deg, rgba(0,0,0,1) 0%, rgb(35, 35, 36) 50%, rgba(0,0,0,1) 100%);
     width: 800px;
     max-width: 80%;
     padding: 3vh;
@@ -216,7 +216,8 @@ body{
     width: 28%;
 }
 .tutorialImg{
-    width: 85%;
+    width: 90%;
+    height: 40vh;
     margin: auto;
     display: block;
     border-radius: 4vh;

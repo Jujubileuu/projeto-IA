@@ -44,12 +44,12 @@ function closeTutorial(){
 function passSlide(){
     if (document.getElementById("firstSlide")){
         document.getElementById("tutorialSlide").innerHTML = "2";
-        document.getElementById("tutorialImg").src = "/img/school.jpg";
+        document.getElementById("tutorialImg").src = "/img/prints/printArea.png";
         document.getElementById('firstSlide').id = 'secondSlide';
         //document.getElementById("tutorialText").innerHTML = "";
     } else if (document.getElementById("secondSlide")){
         document.getElementById("tutorialSlide").innerHTML = "3";
-        document.getElementById("tutorialImg").src = "/img/war.jpg";
+        document.getElementById("tutorialImg").src = "/img/prints/printSeuReceio.png";
         document.getElementById('secondSlide').id = 'thirdSlide';
         //document.getElementById("tutorialText").innerHTML = "";
     }
@@ -57,12 +57,12 @@ function passSlide(){
 function recedeSlide(){
     if (document.getElementById("thirdSlide")){
         document.getElementById("tutorialSlide").innerHTML = "2";
-        document.getElementById("tutorialImg").src = "/img/school.jpg";
+        document.getElementById("tutorialImg").src = "/img/prints/printArea.png";
         document.getElementById('thirdSlide').id = 'secondSlide';
         //document.getElementById("tutorialText").innerHTML = "";
     } else if (document.getElementById("secondSlide")){
         document.getElementById("tutorialSlide").innerHTML = "1";
-        document.getElementById("tutorialImg").src = "/img/bank.jpg";
+        document.getElementById("tutorialImg").src = "/img/prints/printHome.png";
         document.getElementById('secondSlide').id = 'firstSlide';
         //document.getElementById("tutorialText").innerHTML = "";
     }

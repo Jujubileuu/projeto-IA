@@ -5,4 +5,3 @@ O que falta:
 -BD
 -Arrumar o recorte das estruturas
 -Randomizar a posição dos cards
--Pop Up de tutorial

@@ -216,12 +216,12 @@ body{
     width: 28%;
 }
 .tutorialImg{
-    width: 90%;
-    height: 40vh;
+    max-width: 100%;
     margin: auto;
     display: block;
     border-radius: 4vh;
     border: 3px double white;
+    object-fit: cover;
 }
 .tutorialText{
     color: white;
@@ -235,6 +235,9 @@ body{
     display: flex;
     align-items: center;
     justify-content:space-between;
+}
+.tutorialMain{
+    width: 100%;
 }
 .tutorialSlide, .tutorialClose, .tutorialTitle{
     color: white;

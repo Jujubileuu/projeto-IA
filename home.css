@@ -4,11 +4,11 @@
 }
 @font-face {
     font-family: eightBit;
-    src: url(/font/Quinquefive-ALoRM.ttf);
+    src: url(./font/Quinquefive-ALoRM.ttf);
 }
 
 body{
-    background-image: url(/img/home.png);
+    background-image: url(./img/home.png);
     background-size: 100% 100vh;
 }
 
@@ -175,7 +175,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(/img/overlayBack.gif);
+    background: url(./img/overlayBack.gif);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
     pointer-events: none;

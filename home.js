@@ -70,6 +70,11 @@ function recedeSlide(){
 
 window.onload = function() {
     document.getElementById("audioTag").play();
+
+    if (localStorage.getItem("hasCodeRunBefore") === null) {
+        openTutorial();
+        localStorage.setItem("hasCodeRunBefore", true);
+    }
 }
 
 function audioOnOff() {

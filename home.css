@@ -162,9 +162,20 @@ body{
     height: 5vh;
     font-size: large;
 }
-.popUpClose:hover{
+.popUpClose:hover, #enviar:hover{
     color: grey;
     cursor: pointer;
+}
+#inputReceio{
+    width: 75%;
+}
+#enviar{
+    width: 20%;
+    float: right;
+    border: 0;
+    border-radius: 2vh;
+    background-color: black;
+    font-size: 1.5vh;
 }
 
 /*Overlay*/
@@ -194,7 +205,7 @@ body{
     width: 800px;
     max-width: 80%;
     padding: 3vh;
-    display: table;
+    display: none;
 }
 .verticalCenter{
     display: table-cell;
@@ -239,10 +250,12 @@ body{
 .tutorialMain{
     width: 100%;
 }
-.tutorialSlide, .tutorialClose, .tutorialTitle{
+.tutorialSlide, .tutorialClose, .tutorialTitle, #enviar{
     color: white;
     font-family: eightBit;
 }
+
+
 
 /*animated*/
 .animatedGetUp{

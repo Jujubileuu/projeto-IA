@@ -3,4 +3,4 @@ Protótipo do projeto de pesquisa sobre IAs
 
 O que falta:
 -Arrumar o recorte das estruturas
--Randomizar a posição dos cards
+-Logo do site

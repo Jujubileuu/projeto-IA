@@ -110,9 +110,7 @@ body{
 .openForm:hover{
     opacity: 1;
     cursor: pointer;
-    animation-name: fadeIn;
-    animation-duration: 0.5s;
-    animation-timing-function:ease-in;
+    animation: fadeIn 0.5s ease-in;
 }
 .popUp hr{
     background-color: black; 
@@ -136,7 +134,7 @@ body{
     padding: 3vh;
     display: none;
 }
-.popUpText, .popUpTitle, .popUpClose{
+.popUpText, .popUpTitle, .popUpClose, .SRText{
     color: black;
 }
 .popUpText{
@@ -144,6 +142,12 @@ body{
     text-align: justify;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 0vh 2vh 0vh 2vh;
+}
+.SRText{
+    align-self: center;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 3vh 0vh 0vh 0vh;
 }
 .popUpTitle, .popUpClose{
     font-family: eightBit;
@@ -268,6 +272,9 @@ body{
     animation-duration: 1s;
     animation-timing-function:ease-in;
 }
+.animatedFadeInOut{
+    animation: fadeInOut 5s infinite ease-in;
+}
 
 @keyframes getUp {
     0% { top: 150vh; }
@@ -276,4 +283,9 @@ body{
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 0.5; }
+}
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
 }

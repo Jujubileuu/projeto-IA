@@ -64,7 +64,7 @@ function recedeSlide(){
         document.getElementById("tutorialSlide").innerHTML = "1/3";
         document.getElementById("tutorialImg").src = "./img/prints/printHome.png";
         document.getElementById('secondSlide').id = 'firstSlide';
-        document.getElementById("tutorialText").innerHTML = "Na página principal do site terão três estruturas e cada uma delas levará para uma área diferente do site, não existe uma ordem certa para visualizar. Na parte superior estão ícones que da esquerda para à direita estão um link para abrir o projeto de pesquisa que antecede esse projeto, um botão para mutar a música da página e um botão de ajuda que reabrirá o tutorial.";
+        document.getElementById("tutorialText").innerHTML = "Na página principal do site terão três estruturas e cada uma delas levará para uma área diferente do site, não existe uma ordem certa para visualizar.<br>Na parte superior existem três ícones:<br>1º link para abrir o projeto de pesquisa que antecede esse site;<br>2º botão para mutar a música da página;<br>3º botão de ajuda que reabrirá o tutorial.";
     }
 }
 

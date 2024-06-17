@@ -33,7 +33,7 @@
                 </div>
                 <div class="verticalCenter" id="firstSlide">
                     <img src="./img/prints/printHome.png" alt="" class="tutorialImg" id="tutorialImg">
-                    <p class="tutorialText" id="tutorialText" name="firstSlide">Na página principal do site terão três estruturas e cada uma delas levará para uma área diferente do site, não existe uma ordem certa para visualizar. Na parte superior estão ícones que da esquerda para à direita estão um link para abrir o projeto de pesquisa que antecede esse projeto, um botão para mutar a música da página e um botão de ajuda que reabrirá o tutorial.</p>
+                    <p class="tutorialText" id="tutorialText" name="firstSlide">Na página principal do site terão três estruturas e cada uma delas levará para uma área diferente do site, não existe uma ordem certa para visualizar.<br>Na parte superior existem três ícones:<br>1º link para abrir o projeto de pesquisa que antecede esse site;<br>2º botão para mutar a música da página;<br>3º botão de ajuda que reabrirá o tutorial.</p>
                 </div>
                 <div class="verticalCenter">
                     <img src="./img/setaIcon.png" alt="" class="pass" id="pass" onclick="passSlide()">
@@ -59,15 +59,16 @@
             </a>
         </div>
 
-        <div class="openForm" onclick="openForm()"></div>
+        <div class="openForm animatedFadeInOut" onclick="openForm()"></div>
         <div class="popUp animatedGetUp" id="popUp">
             <div class="popUpHeader">
                 <h1 class="popUpTitle">Seu Receio</h1>
                 <h2 class="popUpClose" onclick="closeForm()">X</h2>
             </div>
+            <p class="SRText">Nessa aba está a área para comentários onde você pode contar a outras pessoas quais seus medos referentes as inteligências artificiais.</p>
             <hr>
             <div class="popUpMain">
-                <div class="scrollArea" id="comentariosSR" style="overflow-y: scroll; height: 60vh; width: 100%;">
+                <div class="scrollArea" id="comentariosSR" style="overflow-y: scroll; height: 50vh; width: 100%;">
                     <?php
                         $query = "select * from `comentarios`";
 

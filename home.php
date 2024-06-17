@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="./img/Medo&IA.png">
     <link rel="stylesheet" href="./home.css">
     <script src="./home.js"></script>
-    <title>Document</title>
+    <title>Medo & IA</title>
 </head>
 <body>
 <?php include('./database/conexao.php')?>
@@ -86,8 +87,7 @@
                 </div>
             </div>
             <hr>
-            
-            <form action="./inserir.php" method="post">
+            <form action="./inserir.php" method="post"> 
                 <div class="popUpFooter">
                     <input type="text" name="inputReceio" id="inputReceio" placeholder="Informe seu receio sobre as IAs:">
                     <input type="submit" name="submit"  value="Enviar" id="enviar"/>
